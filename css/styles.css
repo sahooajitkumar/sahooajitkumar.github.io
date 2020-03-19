@@ -22,7 +22,7 @@ a:hover { text-decoration: underline; }
 
 header { width: 100%; }
 /** @group personal settings **/
-#info { float: left; margin-bottom: 12px; }
+#info { float: left; margin-bottom: 5px; }
 #photo { float: right; }
 #photo img { 
 -webkit-border-radius: 3px;
@@ -45,10 +45,12 @@ hr {
   margin-right: auto;
   border-style: inset;
   border-width: 3px;
+   border: 6px solid  #CD5C5C;
+  border-radius: 5px;
 } 
 hr.bottom {
-  border: 10px solid grey;
-  border-radius: 3px;
+  border: 6px solid  #F08080;
+  border-radius: 5px;
 }
 
 
