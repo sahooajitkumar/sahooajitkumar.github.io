@@ -1,16 +1,16 @@
 * { margin: 0; padding: 0; }
-html { height: 101%; }
-body { background: #f2f2f2 url('../images/bg.png'); font-size: 62.5%; padding-bottom: 65px; }
+html { height: 101%; background-color: #eeeeee; }
+body { color: #000; background:#f6f6f6; font-size: 62.5%; padding-bottom: 65px; }
 
-h1 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #000000; font-size: 3em; margin-bottom: 6px; }
-h2 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #000000; font-size: 2.5em; margin-bottom: 10px; text-decoration: underline; }
-h3 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #000000; font-weight: normal; font-size: 1.8em; margin-bottom: 10px; }
-h4 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #000000; font-weight: bold; font-size: 1.75em; margin-bottom: 4px; }
-
+h1 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #224b8d; font-size: 3em; margin-bottom: 6px; }
+h2 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #527bbd; font-size: 2.5em; margin-bottom: 10px; text-decoration: underline; }
+h3 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #527bbd; font-weight: bold; font-size: 1.8em; margin-bottom: 10px; }
+h4 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #527bbd; font-weight: normal; font-size: 1.6em; margin-bottom: 4px; }
+h5 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #000000; font-weight: normal; font-size: 1.4em; margin-bottom: 4px; }
 p { font-family: "Balthazar", "Droid Serif", serif; color: #000000; font-size: 1.8em; line-height: 1.4em; margin-bottom: 15px; padding-left: 35px; }
 small { font-family: "Balthazar", "Droid Serif", serif; color: #000000; font-size: 1.6em; display: block; margin-bottom: 6px; }
 ul { display: block; list-style: none; }
-ul li { padding-left: 45px; list-style-type: none; vertical-align: top; background: url('../images/bullet.png') 25px 5px no-repeat; margin-bottom: 5px; font-family: "Balthazar", "Droid Serif", serif; color: #000000; font-size: 1.6em; line-height: 2.3em; }
+ul li { padding-left: 45px; list-style-type: none; vertical-align: top; background: url('../images/bullet.png') 25px 1px no-repeat; margin-bottom: 5px; font-family: "Balthazar", "Droid Serif", serif; color: #000000; font-size: 1.6em; line-height: 1.5em; }
 
 img { border: 0; max-width: 100%; }
 
@@ -18,7 +18,7 @@ a { color: #134ff9; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /** @group core layout **/
-#w { margin: auto; padding: 20px 40px; padding: 35px; background: #fff url('../images/body.jpg');; min-width: 260px; max-width: 800px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; }
+#w { margin: auto; padding: 20px 40px; padding: 35px; background: #ffffff; min-width: 260px; max-width: 800px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; }
 
 header { width: 100%; }
 /** @group personal settings **/
@@ -44,13 +44,13 @@ hr {
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
-  border-width: 3px;
-   border: 6px solid  #CD5C5C;
-  border-radius: 5px;
+  border-width: 1px;
+   border: 1px solid  #CD5C5C;
+  border-radius: 2px;
 } 
 hr.bottom {
-  border: 6px solid  #F08080;
-  border-radius: 5px;
+  border: 1px solid  #F08080;
+  border-radius: 2px;
 }
 
 
@@ -65,3 +65,4 @@ hr.bottom {
  
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
