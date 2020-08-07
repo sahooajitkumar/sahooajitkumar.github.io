@@ -18,7 +18,7 @@ a { color: #134ff9; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /** @group core layout **/
-#w { margin: auto; padding: 20px 40px; padding: 35px; background: #ffffff; min-width: 260px; max-width: 800px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; }
+#w { margin: auto;  padding: 40px; background: #ffffff; min-width: 260px; max-width: 800px; border: 1px solid   #d9d9d9; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; }
 
 header { width: 100%; }
 /** @group personal settings **/
