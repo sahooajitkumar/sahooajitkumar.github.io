@@ -2,11 +2,11 @@
 html { height: 101%; background-color: #eeeeee; }
 body { color: #000; background:#f6f6f6; font-size: 62.5%; padding-bottom: 65px; }
 
-h1 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #224b8d; font-size: 3em; margin-bottom: 6px; }
+h1 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #224b8d; font-size: 2.5em; margin-bottom: 4px; }
 h2 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #527bbd; font-size: 2.5em; margin-bottom: 10px; text-decoration: underline; }
-h3 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #527bbd; font-weight: bold; font-size: 1.8em; margin-bottom: 10px; }
-h4 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #527bbd; font-weight: normal; font-size: 1.6em; margin-bottom: 4px; }
-h5 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #000000; font-weight: normal; font-size: 1.4em; margin-bottom: 4px; }
+h3 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #527bbd;  font-size: 1.5em; margin-bottom: 5px; }
+h4 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #527bbd; font-weight: normal; font-size: 1.4em; margin-bottom: 2px; }
+h5 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #527bbd; font-weight: normal; font-size: 1.4em; margin-bottom: 20px; }
 p { font-family: "Balthazar", "Droid Serif", serif; color: #000000; font-size: 1.8em; line-height: 1.4em; margin-bottom: 15px; padding-left: 35px; }
 small { font-family: "Balthazar", "Droid Serif", serif; color: #000000; font-size: 1.6em; display: block; margin-bottom: 6px; }
 ul { display: block; list-style: none; }
@@ -16,6 +16,9 @@ img { border: 0; max-width: 100%; }
 
 a { color: #134ff9; text-decoration: none; }
 a:hover { text-decoration: underline; }
+body{
+	background-color: #a6a6a6
+}
 
 /** @group core layout **/
 #w { margin: auto;  padding: 40px; background: #ffffff; min-width: 260px; max-width: 800px; border: 1px solid   #d9d9d9; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; }
@@ -39,13 +42,13 @@ width: 160px;
 
 hr { 
   display: block;
-  margin-top: 0.2em;
+  margin-top: -0.5em;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-   border: 1px solid  #CD5C5C;
+   border: 2px solid  #CD5C5C;
   border-radius: 2px;
 } 
 hr.bottom {
