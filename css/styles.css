@@ -3,7 +3,7 @@ html { height: 101%; background-color: #eeeeee; }
 body { color: #000; background:#f6f6f6; font-size: 62.5%; padding-bottom: 65px; }
 
 h1 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #224b8d; font-size: 2em; margin-bottom: 4px; }
-h2 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #527bbd; font-size: 2em; margin-bottom: 10px; text-decoration: underline; }
+h2 { font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif; color: #527bbd; font-size: 1.8em; margin-bottom: 10px; text-decoration: underline; }
 h3 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #000000;  font-size: 1.5em; margin-bottom: 5px; }
 h4 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #000000; font-weight: normal; font-size: 1.4em; margin-bottom: 2px; }
 h5 { font-family: "Trebuchet MS", Verdana, Arial, sans-serif; color: #000000; font-weight: normal; font-size: 1.4em; margin-bottom: 20px; }
